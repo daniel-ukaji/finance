@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #2D2D2D;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar-logo {
+    margin-bottom: 40px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    margin-bottom: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.support {
+    margin-top: 20px;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.welcome h1 {
+    font-size: 24px;
+}
+
+.user-options a {
+    margin-left: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dashboard-section {
+    background-color: #2D2D2D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dashboard-section h3 {
+    margin-top: 0;
+}
+
+.pending ul, .disbursement ul, .quick-access ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pending li, .disbursement li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.amount {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chart {
+    height: 200px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.quick-access ul li {
+    margin-bottom: 10px;
+}
+
+.quick-access a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #282828;
+    border-radius: 5px;
+}
+
+.quick-access a:hover {
+    background-color: #3e3e3e;
+}

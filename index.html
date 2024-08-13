@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Disbursement Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <h2>FinanceDisbursement</h2>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Transactions</a>
+                        <ul>
+                            <li><a href="#">Categories</a></li>
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">Pending</a></li>
+                            <li><a href="#">Action needed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Earnings</a>
+                        <ul>
+                            <li><a href="#">Summary</a></li>
+                            <li><a href="#">Disburse all</a></li>
+                            <li><a href="#">Categories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="support">
+                <!-- <a href="#">Support & updates</a> -->
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <div class="welcome">
+                    <h1>Welcome!</h1>
+                </div>
+                <div class="user-options">
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="dashboard-section pending">
+                    <h3>Pending</h3>
+                    <ul>
+                        <li>Investments <span class="amount">₦23.826</span></li>
+                        <li>Loans <span class="amount">₦34.109</span></li>
+                        <li>Withdrawals <span class="amount">₦10.320</span></li>
+                        <li>Total <span class="amount">₦68.255</span></li>
+                    </ul>
+                </div>
+
+                <div class="dashboard-section disbursement">
+                    <h3>Disbursement Options</h3>
+                    <ul>
+                        <li>14/11/23 <span class="amount">+₦2.01</span> Investment Co. <button>All</button></li>
+                        <li>14/11/23 <span class="amount">+₦198</span> Acme <button>Category</button></li>
+                        <li>15/11/23 <span class="amount">-₦690</span> Streamio <button>Single</button></li>
+                        <li>15/11/23 <span class="amount">+₦1.380</span> Investment Co. <button>Single</button></li>
+                        <li>15/11/23 <span class="amount">-₦8.900</span> Investment Co. <button>Customize</button></li>
+                    </ul>
+                </div>
+
+                <div class="dashboard-section transactions">
+                    <h3>Transactions</h3>
+                    <div class="chart">
+                    </div>
+                </div>
+
+                <!-- <div class="dashboard-section quick-access">
+                    <h3>Quick Access</h3>
+                    <ul>
+                        <li><a href="#">Accounts</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Forecasting</a></li>
+                        <li><a href="#">Financial Trends & Cashflow</a></li>
+                    </ul>
+                </div> -->
+            </section>
+        </main>
+    </div>
+</body>
+</html>
