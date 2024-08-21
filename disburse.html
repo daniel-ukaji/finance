@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending Transactions</title>
+    <link rel="stylesheet" href="disburse.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <h2>FinanceDisbursement</h2>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/disburse.html">Disbursements</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <div class="welcome">
+                    <h1>Pending Transactions</h1>
+                </div>
+                <div class="user-options">
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                    <a href="#"><i class="icon"></i></a>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="table-controls">
+                    <button class="disburse-all">Disburse All</button>
+                    <div class="filters">
+                        <button class="filter-btn">Filter</button>
+                    </div>
+                </div>
+                <table class="transactions-table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" checked></th>
+                            <th>Transaction</th>
+                            <th>Type</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" checked></td>
+                            <td>872346</td>
+                            <td>14/11/23</td>
+                            <td>14 days</td>
+                            <td>€2.011</td>
+                            <td><button class="status-btn success">✔</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" checked></td>
+                            <td>563821</td>
+                            <td>14/11/23</td>
+                            <td>7 days</td>
+                            <td>€2300</td>
+                            <td><button class="status-btn danger">✖</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
